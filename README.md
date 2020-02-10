@@ -1,24 +1,10 @@
-# README
+# wcp_practical_01_bookers1-debug
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Fixed
 
-Things you may want to cover:
+- [x] Added "Books" model to "Title" column.
+      (because "Title" column was missing.)
 
-* Ruby version
+- [x] Fixed the variables passed to the form template part of the "books/index" were insufficient.
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- [x] Fixed the wrong route for transition to "books/edit".
